@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+
+	<Fragment>
+
+		<ComponentGroup
+			Id="StudentManagerComponents"
+			Directory="INSTALLFOLDER">
+
+			<Component Guid="*">
+				<File Source="..\StudentManagerApp\bin\Release\net10.0-windows\StudentManagerApp.exe" />
+			</Component>
+
+			<Component Guid="*">
+				<File Source="..\StudentManagerApp\bin\Release\net10.0-windows\GradeLibrary.dll" />
+			</Component>
+
+			<Component Guid="*">
+				<File Source="..\StudentManagerApp\bin\Release\net10.0-windows\ReportLibrary.dll" />
+			</Component>
+
+		</ComponentGroup>
+
+	</Fragment>
+
+</Wix>

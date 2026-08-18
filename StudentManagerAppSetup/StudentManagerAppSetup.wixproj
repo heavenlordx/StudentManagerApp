@@ -1,0 +1,6 @@
+﻿<Project Sdk="WixToolset.Sdk/5.0.2">
+  <ItemGroup>
+    <ProjectReference Include="..\GradeLibrary\GradeLibrary.csproj" />
+    <ProjectReference Include="..\ReportLibrary\ReportLibrary.csproj" />
+  </ItemGroup>
+</Project>
